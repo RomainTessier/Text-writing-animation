@@ -1,0 +1,29 @@
+*, html{
+    padding: 5px;
+    margin: 0px;
+}
+
+body{
+    background-color: #000000;
+    color: white;
+}
+
+.square{ 
+    position: absolute;
+    padding: 0px;
+    width: 8px;
+    height: 15px;
+    animation: flash 1s infinite;
+}   
+
+@keyframes flash{
+    0%{
+        background-color: #000000;
+    }
+    50%{
+        background-color: #ffffff;
+    }
+    100%{
+        background-color: #000000;
+    }
+}
